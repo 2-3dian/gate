@@ -86,7 +86,15 @@ EDGE_HOSTS = [
     for h in os.environ.get(
         "EDGE_HOSTS",
 # 优选域名
-        "",
+        "cu.zxy88.eu.org:2053,cloudflare-ip.mofashi.ltd:2087,www.galgamex.net:2087,buyshoes.shop:2083,alternativeto.net:2087,crinacle.com:2087,47bt.com:8443,"
+        "dx.doi.org:2053,japan.com:2053,api.producthunt.com:2096,coreweave.com:2096,example.com:8443,debot.ai:2096,"
+        "uspto.gov:8443,s.ee:8443,absen.com:8443,icook.hk:2096,www.acces-maroc.ma:443,9mod.com:8443,versantstore.pearson.com:2083,"
+        "www.apnic.net:8443,moondroplab.com:2087,constitution.congress.gov:2087,scalacube.com:8443,www.mastervolt.com:2053,www.elysee.fr:2096,www.eccu.edu:443,"
+        "hitcon.org:443,www.wto.org:443,fbi.gov:2096,syncfusion.com:2096,academy.mastercard.com:2087,rocketreach.co:443,"
+        "www.meteorelectrical.com:443,helium.computer:2096,www.timbuktutravel.com:2096,www.donaldjtrump.com:2096,www.chess.com:2083,cf.877774.xyz:2053,"
+        "www.doiting.com:2083,snipaste1.speedip.eu.org:2096,sellerlogic.com:2083,www.libvio.site:2087,cdn.cnno.de:2087,kernelsu.com:2087,"
+        "ooo.0o0.ooo:2053,ncdc.gov.ng:2053,fonts.cdnfonts.com:2053,de.102198.xyz:8443,ippure.com:2053,aqua-aria.company:2083,"
+        "vegasgeek.com:8443,dl.macked.app:2087,www2.rarbggo.to:2087,ncc.gov.ng:2087,www.transgenderdor.org:2053,gateway.ipfsscan.io:443",
     ).split(",")
     if h.strip()
 ]
